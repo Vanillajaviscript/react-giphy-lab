@@ -19,8 +19,8 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <Button gif={gif}/>
-      <GiphyDisplay />
+      <Button />
+      <GiphyDisplay gif={gif} />
     </div>
   );
 }

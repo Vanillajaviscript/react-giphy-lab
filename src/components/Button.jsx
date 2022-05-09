@@ -1,9 +1,8 @@
 // import {useState} from "react";
 
 
-const Button = ({gif}) => {
-const {data} = gif;
-  const {embed_url, title} = gif;
+const Button = () => {
+
     return (
         <div className="form">
            
