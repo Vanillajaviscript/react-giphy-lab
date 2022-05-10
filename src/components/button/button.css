@@ -1,0 +1,24 @@
+.button, #btn {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #f8f2f2;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#f7f2f2;
+    text-align:center;
+    background-color: rgb(31, 45, 122);;
+}
+.button:hover {
+    color:#524f4f;
+    border-color:#757171;
+    background-color: rgb(39, 36, 36);;
+}
+.button:active {
+    color:#f3e6e6;
+    border-color:#a57d19;
+}
+ 

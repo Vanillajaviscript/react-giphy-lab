@@ -1,0 +1,25 @@
+h1 {
+    font-family: "Noto Sans", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background: rgba(43, 166, 203, 0.5 /* alpha value for background */);
+    padding: 0.5em 0.9em 0.8em 0.5em;
+}
+h4 {
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5em 0.9em 0.8em 0.5em;
+}
+
+img {
+    position: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 5px 4px 5px 5px;
+}
