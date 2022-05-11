@@ -5,7 +5,6 @@ h1 {
     color: #FFF;
     font-size: 1.5em;
     border-radius: 20px;
-    background: rgba(43, 166, 203, 0.5 /* alpha value for background */);
     padding: 0.5em 0.9em 0.8em 0.5em;
 }
 h4 {

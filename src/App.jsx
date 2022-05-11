@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from "react";
 import Button from "./components/button/Button";
 import GiphyDisplay from "./components/giphydisplay/GiphyDisplay";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   const API_KEY = "YSrALZnb7d42Hl4gg7oWCJ8vzXFZqjJW";
@@ -16,8 +17,11 @@ const App = () => {
 
   return (
     <div className="App">
-      <GiphyDisplay  gif={gif}/>
-      <Button getGiphy={getGiphy}/>
+      <Navbar />
+      <div className="content">
+          <GiphyDisplay  gif={gif}/>
+          <Button getGiphy={getGiphy}/>
+      </div>
     </div>
   );
 }

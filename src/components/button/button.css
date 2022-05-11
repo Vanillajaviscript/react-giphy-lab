@@ -15,10 +15,14 @@
 .button:hover {
     color:#524f4f;
     border-color:#757171;
-    background-color: rgb(39, 36, 36);;
+    background-color: rgb(118, 78, 41);;
+}
+
+#btn:hover {
+    background-color: rgb(148, 34, 34);
 }
 .button:active {
     color:#f3e6e6;
-    border-color:#a57d19;
+    border-color:#a38131;
 }
  
