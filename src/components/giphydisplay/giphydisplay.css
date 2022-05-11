@@ -2,7 +2,7 @@ h1 {
     font-family: "Noto Sans", sans-serif;
     text-transform: capitalize;
     text-align: center;
-    color: #FFF;
+    color: rgb(254, 254, 254);
     font-size: 1.5em;
     border-radius: 20px;
     padding: 0.5em 0.9em 0.8em 0.5em;
@@ -19,6 +19,6 @@ h4 {
 img {
     position: center;
     border-radius: 20px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 10px 10px 6px 4px rgba(0, 0, 0, 0.72);
     margin: 5px 4px 5px 5px;
 }
