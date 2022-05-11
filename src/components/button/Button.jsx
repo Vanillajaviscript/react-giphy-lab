@@ -5,7 +5,7 @@ const Button = (props) => {
     const [gifState, setGifState] = useState(null);
     const handleClick = () => {
         props.getGiphy(gifState);
-        setGifState([])
+        setGifState(gifState)
     }
 
     return (
