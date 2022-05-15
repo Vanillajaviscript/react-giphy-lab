@@ -10,7 +10,7 @@ const Button = (props) => {
 
     return (
         <div className="button">
-           <button id="btn" onClick={() => {handleClick()}} >Get Gif!</button>
+           <button id="btn" onClick={() => {handleClick()}} >Get Crunchy Gif!</button>
         </div>
     )
 }
